@@ -60,14 +60,8 @@ int main(int argc, char **argv) {
         {"fd"},
         // TODO: 分析 problems[1] 中资源的生命周期，将记录填入 `std::vector`
         {"d", "ffr"},
-        {"r", "d", "d"},
+        {"d", "d", "r"},
     };
-    std::cout << problems[0][0] << std::endl;
-    std::cout << problems[1][0] << std::endl;
-    std::cout << problems[1][1] << std::endl;
-    std::cout << problems[2][0] << std::endl;
-    std::cout << problems[2][1] << std::endl;
-    std::cout << problems[2][2] << std::endl;
     // ---- 不要修改以下代码 ----
 
     for (auto i = 0; i < 3; ++i) {
