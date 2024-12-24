@@ -62,6 +62,12 @@ int main(int argc, char **argv) {
         {"d", "ffr"},
         {"r", "d", "d"},
     };
+    std::cout << problems[0][0] << std::endl;
+    std::cout << problems[1][0] << std::endl;
+    std::cout << problems[1][1] << std::endl;
+    std::cout << problems[2][0] << std::endl;
+    std::cout << problems[2][1] << std::endl;
+    std::cout << problems[2][2] << std::endl;
     // ---- 不要修改以下代码 ----
 
     for (auto i = 0; i < 3; ++i) {
